@@ -30,7 +30,7 @@ In this experiment one-hundred models of varying leaf size for a bagged decision
   <img src = "Figure_2_Bagged_RMSE_Error.png">
 </p>
 <p align = "center">
-Figure 1.1: Decision Tree Learner In-Sample vs. Out-Sample RMSE (Left); Figure 1.2: Sample RMSE Difference (Right)
+Figure 2.1: Bag & Decision Tree Learners In-Sample vs. Out-Sample RMSE (Left); Figure 2.2: Sample RMSE Difference (Right)
 </p>
 
 ### 3.3 Experiment 3:
@@ -40,7 +40,7 @@ In contrast to experiments 1 & 2 which utilized RMSE as the metric for compar-in
   <img src = "Figure_3_DT_vs_RT_L1_Error.png">
 </p>
 <p align = "center">
-Figure 1.1: Decision Tree Learner In-Sample vs. Out-Sample RMSE (Left); Figure 1.2: Sample RMSE Difference (Right)
+Figure 3.1: Decision & Random Tree Learners In-Sample vs. Out-Sample L1 Error (Left); Figure 3.2: Sample L1 Error Difference (Right)
 </p>
 
 ### 3.4 Experiment 4:
@@ -50,7 +50,7 @@ In this final experiment we continue to evaluate the performance of decision and
   <img src = "Figure_4_DT_vs_RT_Clock_Time.png">
 </p>
 <p align = "center">
-Figure 1.1: Decision Tree Learner In-Sample vs. Out-Sample RMSE (Left); Figure 1.2: Sample RMSE Difference (Right)
+Figure 4.1: Decision & Random Tree Learners Training Time (Left); Figure 4.2: Inference Time (Right)
 </p>
 
 ## 4 SUMMARY:
