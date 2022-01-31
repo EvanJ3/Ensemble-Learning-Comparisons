@@ -1,5 +1,6 @@
 # Ensemble-Learning-Comparisons
-A comparative analysis of tree learners on Istanbul Stock Exchange Data
+
+In this report, we will explore several tree-based re-gression models in attempt to contrast their respective strengths, and weakness. These models include decision trees, random trees, and the ensemble method bagged decision trees. 
 
 
 ## 1 Introduction
@@ -8,6 +9,13 @@ The strength of tree-classifiers derives from their ability to represent complex
 ## 2 Methods
 
 In this report we will discuss several tree classifiers and their performance char-acteristics on the UCL Istanbul Stock Exchange dataset. This dataset utilizes daily returns of international stock indexes as features and the return of Istanbul’s stock exchange for the respective day as target labels. Each learner is written in Python 3 and utilizes a NumPy array-based representation of the respective model trees (Quinlan 1986). A random number generator with seed set to 901132254 is used for ease of replication. The dataset will be divided up into training and testing subsets according to a 60/40 split with random assignment without replacement. For each of the following experiments, the models will be trained independently on this same training and test data. For each of the three classes of model, 100 different models of each with varying hyper-parameter maximum leaf size were trained. Further important implementational details to specific leaners will be discussed within their respective experiment sections.
+
+<p align = "center">
+  <img src = "Figure_1_DT_RMSE_Error.png">
+</p>
+<p align = "center">
+Figure 1.1: Decision Tree Learner In-Sample vs. Out-Sample RMSE (Left); Figure 1.2: Sample RMSE Difference (Right)
+</p>
 
 ## 3	EXPERIMENTAL RESULTS & DISCUSSION:
 
